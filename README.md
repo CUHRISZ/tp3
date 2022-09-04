@@ -1,2 +1,3 @@
 # tp3
-DTC 477 - Tiny Project #3 (Chris Cabero)
+
+This is a README file for Tiny Project 3 (TP3)
