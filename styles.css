@@ -1,17 +1,49 @@
-h1 {
-  font-family: Arial;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;600&display=swap');
+
+#heading {
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
+h1 {
+ font-family: 'Bebas Neue', cursive;
+}
+
+.recipe{
+  padding-left: 30px;
+}
 h4 {
   margin-bottom: 0;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
 }
 
 ul, ol {
   margin-top: 0;
+  line-height: 150%;
 }
 
+li {
+  font-family: 'Roboto Slab', serif;
+}
+
+#directions ol li {
+  line-height: 200%;
+}
+
+#cakeingredients, #frostingingredients {
+  width: 450px;
+  padding: 8px;
+  border: 2px solid
+}
+
+#frostingingredients {
+  margin-top: 10px;
+}
 .copyright {
   font-family: Arial;
   font-size: 9px;
   font-style: italic;
+  padding-left: 50px;
+  padding-top: 50px;
 }
